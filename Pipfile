@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+dash = "*"
+flask-session = "*"
+flask-login = "*"
+flask-pymongo = "*"
+pymongo = {extras = ["srv"],version = "*"}
+pandas = "*"
+xlrd = "*"
+
+[requires]
+python_version = "3.7"
